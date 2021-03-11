@@ -22,7 +22,21 @@ git push -u origin master 把本地库的所有内容推送到远程库
 git remote -v   查看远程库信息
 git remote rm <name>  删除远程库
 
-$ git clone git@github.com:your/gitskills.git
+git clone git@github.com:your/gitskills.git
 Git支持多种协议，包括https，但ssh协议速度最快。
 
-git conflict
+git switch -c dev 创建dev分支，然后切换到dev分支 
+
+git switch命令加上-c参数表示创建并切换，相当于以下两条命令
+git branch dev
+git switch dev
+
+git branch命令会列出所有分支，当前分支前面会标一个*号
+
+git merge dev 合并指定分支到当前分支
+git branch -d dev 地删除dev分支
+
+Git鼓励大量使用分支
+
+git log --graph命令可以看到分支合并图
+
