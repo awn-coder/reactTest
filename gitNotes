@@ -24,3 +24,5 @@ git remote rm <name>  删除远程库
 
 $ git clone git@github.com:your/gitskills.git
 Git支持多种协议，包括https，但ssh协议速度最快。
+
+git conflict
