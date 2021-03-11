@@ -36,4 +36,6 @@ git branch命令会列出所有分支，当前分支前面会标一个*号
 git merge dev 合并指定分支到当前分支
 git branch -d dev 地删除dev分支
 
-Git鼓励大量使用分支S
+Git鼓励大量使用分支
+
+git log --graph命令可以看到分支合并图
